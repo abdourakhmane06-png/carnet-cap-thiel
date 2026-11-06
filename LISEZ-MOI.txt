@@ -1,0 +1,20 @@
+CARNET CAP THIEL — PAQUET PWA
+
+Contenu :
+- index.html : votre logiciel HTML original, conservé sans modification
+- manifest.webmanifest : nom, affichage et icônes de l'application
+- sw.js : mise en cache et fonctionnement hors connexion
+- offline.html : page de secours
+- icons/ : icônes PWA 192 et 512 px
+
+Publication :
+1. Décompressez ce ZIP.
+2. Envoyez TOUS les fichiers et le dossier icons à la racine du dépôt GitHub.
+3. Déployez le dépôt avec Vercel (Framework Preset: Other, Build Command vide, Output Directory .).
+4. Ouvrez l'URL Vercel avec Chrome Android, laissez charger complètement, puis installez.
+5. Ouvrez une fois l'application avec Internet avant de tester le mode avion.
+
+Important :
+Les données du carnet sont enregistrées dans le stockage local du navigateur (localStorage).
+Ne videz pas les données du site/de l'application et ne désinstallez pas l'application sans exporter une sauvegarde.
+La dictée vocale et certaines fonctions vocales peuvent dépendre du navigateur, du système et d'une connexion.
